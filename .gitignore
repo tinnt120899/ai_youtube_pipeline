@@ -1,0 +1,83 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# ===== Virtual Environments =====
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# ===== Editor & OS Files =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ===== Logs & Caches =====
+*.log
+*.out
+*.pid
+*.gz
+.cache/
+*.tmp
+temp/
+logs/
+
+# ===== Build & Distribution =====
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# ===== Environment & API Keys =====
+.env.local
+.env.production
+.env.development
+.env.*
+*.pem
+*.key
+*.json
+
+# ===== Media / Outputs =====
+output/
+outputs/
+videos/
+audio/
+images/
+frames/
+temp_audio/
+temp_video/
+*.mp4
+*.wav
+*.mp3
+*.jpg
+*.png
+
+# ===== Jupyter / Notebook =====
+.ipynb_checkpoints
+
+# ===== System Backup Files =====
+*~
+*.bak
+*.tmp
+*.old
+
+# ===== macOS Specific =====
+*.icloud
+.AppleDouble
+.LSOverride
+
+# ===== Node (if using AI UI tools) =====
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
